@@ -32,10 +32,10 @@ The project automates the detection of suspicious activity (e.g., Mimikatz alert
 ### 1. TheHive and Wazuh Configuration
 The setup includes configuring firewalls in Wazuh and setting up connections between Wazuh and TheHive.
 
-*Note*: Ensure that appropriate firewall settings are in place since the Cloud IP (Digital Ocean) will be public. The setup requires watching a step-by-step video tutorial for configuring Wazuh alerts and rules.
+*Note*: Ensure that appropriate firewall settings are in place since the Cloud IP (Digital Ocean)/ ssh will be exposed to the public. I would highly recommend watching the step-by-step video tutorial for configuring Wazuh alerts, rules and firewalls.
 
 ### 2. Mimikatz and Wazuh Alerts
-Instructions for setting up Mimikatz alerts in Wazuh involve creating detection rules. A link for downloading Mimikatz is provided, but changes may be needed in Windows or Chrome's downloading settings for security purposes.
+Instructions for setting up Mimikatz alerts in Wazuh involve creating detection rules. A link for downloading Mimikatz is provided, but changes are needed in Windows or Chrome's downloading settings for security purposes.
 
 ### 3. Shuffle (SOAR) Setup
 - Install and configure Shuffle for alert automation.
@@ -61,4 +61,4 @@ Instructions for setting up Mimikatz alerts in Wazuh involve creating detection 
 7. Automatically block the IP if the user confirms it is malicious.
 
 ## Additional Tools
-- **Public.sqrx.com**: Use this service to safely simulate the behavior of malicious websites or files without risking your environment.
+- **Public.sqrx.com**: Use this service to safely simulate the behavior of malicious websites or files without risking your own environment.
