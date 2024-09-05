@@ -1,3 +1,4 @@
 Contains how to e.g. how to setup firewalls in wazuh and so on. 
+I would highly recommend watching the video, as the ip for the Cloud (Digital Ocean) will be public! 
 
 https://www.youtube.com/watch?v=VuSKMPRXN1M

@@ -1,0 +1,43 @@
+Video link that shows everything step by step 
+https://www.youtube.com/watch?v=GNXK00QapjQ
+
+Contains
+    how to setup Shuffle
+    Workflow
+    TheHive
+    emails to analyst
+    Response setup
+
+
+How the workflow will look like:
+    1. Mimikatz Alert Sent to Shuffle
+    2. Shuffle Receives Mimikatz Alert (Extract SHA256 Hash from file)
+    3. Check reputation score w/VirusTotal
+    4. Send Details to TheHive to Create Alert
+    5. Send email to SOC Analyst
+
+Example Scenario
+    ALERT: 
+        Suspicious Rundll32.exe
+        Outbound Connection
+    
+    TRIAGE:
+        View Surrounding Events
+        Identified Suspicious Domain
+
+    RESEARCH:
+        Wide-Spread Campaign
+        Not a targeted attack
+
+You can check (safely) what a malicious website or file would do (behaviour) if you click on it by using public.sqrx.com
+
+Reponse Demo could look like this:
+    1. Create Ubuntu Machine (lowest specifications ex. 1gb ram and 25hdd, allow all traffic inbound)
+    2. install wazuh agent on ubuntu (watch ssh brute force activity)
+    3. push all level 5 alerts to shuffle
+    4. perform ip enrichment w/ virustotal
+    5. send details via email to the user (ask to block source ip)
+    6. create an alert in thehive
+    7. automatically block ip if user confirms
+
+
