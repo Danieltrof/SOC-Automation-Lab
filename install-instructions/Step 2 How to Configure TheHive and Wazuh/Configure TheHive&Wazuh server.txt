@@ -1,4 +1,3 @@
-Contains how to e.g. how to setup firewalls in wazuh and so on. 
-I would highly recommend watching the video, as the ip for the Cloud (Digital Ocean) will be public! 
+A video that shows step by step how to configure theHive and Wazuh server
 
 https://www.youtube.com/watch?v=VuSKMPRXN1M
