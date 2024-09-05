@@ -1,0 +1,5 @@
+Install windows 10 "image" from:
+https://www.microsoft.com/en-ca/software-download/windows10
+
+Download the "Create Windows 10 installation media"
+Download as a ISO file!
